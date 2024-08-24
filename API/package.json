@@ -1,0 +1,35 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Projet de fin de formation de la 3WA, création d'une API RESTful en 'Node/Express', sa BDD 'MySQL', et la vue 'React'",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "express",
+    "mysql",
+    "react"
+  ],
+  "author": "Xavier PAMPHILE",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-mysql-session": "^2.1.8",
+    "express-session": "^1.18.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.9.7",
+    "nanoid": "^5.0.7",
+    "uuidv4": "^6.2.13"
+  }
+}
