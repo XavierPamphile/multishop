@@ -24,7 +24,7 @@ const upload = multer({
         fileSize: 1024 * 1024 * 5,
     },
 
-    // File validation filter to accept only images in webp format.
+// File validation filter to accept only images in webp format.
 
     fileFilter: function (req, file, cb) {
         const filetypes = /webp/;
